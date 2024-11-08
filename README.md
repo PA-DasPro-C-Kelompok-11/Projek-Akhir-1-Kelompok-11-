@@ -104,6 +104,10 @@ Jika nomor 1 yang di input di menu admin, maka akan masuk ke menu penambahan pro
 
 Jika admin memasukkan nomor 1, 2, atau 3, admin diharuskan untuk memasukkan nama produk baru untuk kategori yang dipilih, harga produk dengan ketentuan minimal 50.000.000, dan kuantitas dari produk. Tetapi, jika admin memasukkan nomor 4, Ia akan kembali ke menu admin.
 
+![Screenshot 2024-11-08 232405](https://github.com/user-attachments/assets/509d3c98-7221-4385-9b81-c27d771aba4d)
+
+Jika harga yang dimasukkan tidak sesuai, sistem akan meminta terus untuk memberikan harga yang sesuai.
+
 ![Screenshot 2024-11-08 222823](https://github.com/user-attachments/assets/8d9d5ae8-574c-4b42-bd03-9bb0e131c8f5)
 
 Jika berhasil menambahkan, sistem akan memberitahu bahwa produk telah ditambah dan admin akan dikembalikan ke menu admin. Sama apabila pada awal pemilihan tambah memilih nomor 4 yaitu kembali ke menu admin.
@@ -129,6 +133,10 @@ Jika pilihan 1, 2, atau 3 yang dimasukkan, akan memperlihatkan ID, Nama Produk, 
 ![Screenshot 2024-11-08 223755](https://github.com/user-attachments/assets/3ade1f05-36b6-4c2c-8a7a-d13afb44859b)
 
 Setelah itu, admin diharuskan untuk memilih ID dari produk mana yang ingin diganti, memasukkan nama produk, harga, dan kuantitas dari produk.
+
+![Screenshot 2024-11-08 232542](https://github.com/user-attachments/assets/8b536893-6cda-4f8e-8911-ccf142e92880)
+
+Jika harga yang dimasukkan tidak sesuai, sistem akan meminta terus untuk memberikan harga yang sesuai.
 
 ![Screenshot 2024-11-08 223936](https://github.com/user-attachments/assets/66e55ad7-5bb8-4f2d-accb-18d56eb6e0de)
 
