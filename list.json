@@ -1,0 +1,49 @@
+{
+    "Kategori": [
+        {
+            "Nama Kategori": "Rumah",
+            "Properti": [
+                {
+                    "ID": 2,
+                    "Tipe/Jenis": "45 (45x45)",
+                    "Harga": 180000000,
+                    "Kuantitas": 3
+                },
+                {
+                    "ID": 3,
+                    "Tipe/Jenis": " 40(40x40)",
+                    "Harga": 180000000,
+                    "Kuantitas": 2
+                },
+                {
+                    "ID": 4,
+                    "Tipe/Jenis": "20(20x20)",
+                    "Harga": 100000000,
+                    "Kuantitas": 9
+                }
+            ]
+        },
+        {
+            "Nama Kategori": "Tanah",
+            "Properti": [
+                {
+                    "ID": 1,
+                    "Tipe/Jenis": "5x5",
+                    "Harga": 250000000,
+                    "Kuantitas": 1
+                }
+            ]
+        },
+        {
+            "Nama Kategori": "Ruko",
+            "Properti": [
+                {
+                    "ID": 1,
+                    "Tipe/Jenis": "1 Lantai",
+                    "Harga": 70000000,
+                    "Kuantitas": 2
+                }
+            ]
+        }
+    ]
+}
