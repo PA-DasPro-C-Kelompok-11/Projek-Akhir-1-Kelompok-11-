@@ -490,7 +490,7 @@ def topUp4():
 
 
 def beliProperti():
-    while True:  # Looping untuk memberikan pilihan kembali
+    while True: 
         clear()
         print("========= BELI PROPERTI =============")
         if 'username' not in globals():
@@ -538,18 +538,18 @@ def beliProperti():
         if properti_ditemukan["Kuantitas"] <= 0:
             print("Maaf, properti ini sudah habis/tidak tersedia.")
             input("Tekan ENTER untuk melanjutkan...")
-            continue  # Kembali ke awal loop
+            continue  
         
         user = next((u for u in users if u["Nama User"].lower() == username.lower()), None)
         if not user:
             print("User  tidak ditemukan.")
             input("Tekan ENTER untuk melanjutkan...")
-            continue  # Kembali ke awal loop
+            continue  
         
         if user["Saldo"] < properti_ditemukan["Harga"]:
             print("Saldo Anda tidak mencukupi untuk membeli properti ini.")
             input("Tekan ENTER untuk melanjutkan...")
-            continue  # Kembali ke awal loop
+            continue 
         
         while True:
             try:
@@ -565,7 +565,7 @@ def beliProperti():
         if konfirmasi.lower() != 'y':
             print("Pembelian dibatalkan.")
             input("Tekan ENTER untuk melanjutkan...")
-            continue  # Kembali ke awal loop
+            continue  
         
         user["Saldo"] -= properti_ditemukan["Harga"] * kuantitas
         properti_ditemukan["Kuantitas"] -= kuantitas  
@@ -578,7 +578,7 @@ def beliProperti():
         
         simpanStruk(username, properti_ditemukan, user["Saldo"], kategori, kuantitas)
         
-        break  # Keluar dari loop dan fungsi
+        break  
 
 
 
