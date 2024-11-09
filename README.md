@@ -1,3 +1,9 @@
+# Kelompok 11
+Jabbar Hafizh Abdillah (2409116116)
+Nur Aliyya (2409116094)
+Maria Claudia Meo (2409116108)
+
+
 # Pembelian Properti
 
 ## Deskripsi Program
